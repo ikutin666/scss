@@ -1,0 +1,20 @@
+$myColor: #202020;
+$myBackground: #e6e6e6;
+$bd: 2px solid red; 
+body {
+     background: darken($myBackground,20%);
+}
+ 
+h1, h2 {
+     color: lighten($myColor, 40%);
+}
+form[class='awesome_form']
+{
+	width: 190px;
+	border: $bd;
+}
+
+input[name^="CVF"], textarea
+{
+	display: none;
+}

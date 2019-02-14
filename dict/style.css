@@ -1,0 +1,12 @@
+body {
+  background: #b3b3b3; }
+
+h1, h2 {
+  color: #868686; }
+
+form[class='awesome_form'] {
+  width: 190px;
+  border: 2px solid red; }
+
+input[name^="CVF"], textarea {
+  display: none; }
